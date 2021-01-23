@@ -50,11 +50,22 @@ let g:gitgutter_max_signs=500
 let g:gitgutter_sign_column_always=1
 let g:gitgutter_realtime=1
 
+" tagbar
+nmap <F8> :TagbarToggle<CR>
+
 " vim-snippets
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let g:UltiSnipsEditSplit="vertical"
+
+" DoxygenToolkit
+let g:DoxygenToolkit_briefTag_pre="@brief  "
+let g:DoxygenToolkit_paramTag_pre="@param "
+let g:DoxygenToolkit_returnTag="@return   "
+let g:DoxygenToolkit_blockHeader=""
+let g:DoxygenToolkit_blockFooter=""
+let g:DoxygenToolkit_authorName="Giang Hoang"
 
 " vim-markdown-preview
 let vim_markdown_preview_github=1
