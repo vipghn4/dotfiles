@@ -33,8 +33,6 @@ Plug 'google/vim-codefmt'
 Plug 'google/vim-glaive'
 call plug#end()
 
-call glaive#Install()
-
 " fold
 set nofoldenable
 set foldmethod=indent
