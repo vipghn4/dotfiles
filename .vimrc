@@ -27,6 +27,7 @@ Plug 'majutsushi/tagbar'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'vim-scripts/DoxygenToolkit.vim'
+Plug 'heavenshell/vim-pydocstring', { 'do': 'make install' }
 
 Plug 'google/vim-maktaba'
 Plug 'google/vim-codefmt'
@@ -70,6 +71,9 @@ let g:DoxygenToolkit_returnTag="@return   "
 let g:DoxygenToolkit_blockHeader=""
 let g:DoxygenToolkit_blockFooter=""
 let g:DoxygenToolkit_authorName="Giang Hoang"
+
+" vim-pydocstring
+let g:pydocstring_formatter = 'google'
 
 " vim-markdown-preview
 let vim_markdown_preview_github=1
