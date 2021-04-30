@@ -32,6 +32,8 @@ Plug 'heavenshell/vim-pydocstring', { 'do': 'make install' }
 Plug 'google/vim-maktaba'
 Plug 'google/vim-codefmt'
 Plug 'google/vim-glaive'
+
+Plug 'preservim/nerdtree'
 call plug#end()
 
 " fold
